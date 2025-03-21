@@ -1,0 +1,858 @@
+[
+  {
+    "transaction_id": "T053",
+    "customer_id": "104",
+    "timestamp": "2024-03-29T14:54:01Z",
+    "amount": 95.79,
+    "currency": "USD",
+    "status": "failed"
+  },
+  {
+    "transaction_id": "T070",
+    "customer_id": "103",
+    "timestamp": "2024-03-27T02:34:59Z",
+    "amount": 402.47,
+    "currency": "USD",
+    "status": "pending"
+  },
+  {
+    "transaction_id": "T001",
+    "customer_id": "101",
+    "timestamp": "2024-03-01T12:34:56Z",
+    "amount": 100.5,
+    "currency": "USD",
+    "status": "completed"
+  },
+  {
+    "transaction_id": "T009",
+    "customer_id": "104",
+    "timestamp": "2024-03-22T22:44:42Z",
+    "amount": 206.48,
+    "currency": "USD",
+    "status": "pending"
+  },
+  {
+    "transaction_id": "T007",
+    "customer_id": "103",
+    "timestamp": "2024-03-19T06:11:04Z",
+    "amount": 160.3,
+    "currency": "USD",
+    "status": "failed"
+  },
+  {
+    "transaction_id": "T006",
+    "customer_id": "103",
+    "timestamp": "2024-03-01T01:29:19Z",
+    "amount": null,
+    "currency": "USD",
+    "status": "pending"
+  },
+  {
+    "transaction_id": "T003",
+    "customer_id": "101",
+    "timestamp": "2024-03-03T18:45:00Z",
+    "amount": 50.75,
+    "currency": "USD",
+    "status": "completed"
+  },
+  {
+    "transaction_id": "T092",
+    "customer_id": "102",
+    "timestamp": "2024-03-01T11:02:39Z",
+    "amount": 314.56,
+    "currency": "USD",
+    "status": "failed"
+  },
+  {
+    "transaction_id": "T008",
+    "customer_id": "105",
+    "timestamp": "2024-03-11T01:01:58Z",
+    "amount": 432.26,
+    "currency": "USD",
+    "status": "failed"
+  },
+  {
+    "transaction_id": "T073",
+    "customer_id": "104",
+    "timestamp": "2024-03-09T13:04:34Z",
+    "amount": 158.92,
+    "currency": "USD",
+    "status": "pending"
+  },
+  {
+    "transaction_id": "T065",
+    "customer_id": "109",
+    "timestamp": "2024-03-14T17:20:40Z",
+    "amount": 282.7,
+    "currency": "USD",
+    "status": "pending"
+  },
+  {
+    "transaction_id": "T001",
+    "customer_id": "101",
+    "timestamp": "2024-03-01T12:34:56Z",
+    "amount": 100.5,
+    "currency": "USD",
+    "status": "completed"
+  },
+  {
+    "transaction_id": "T068",
+    "customer_id": "100",
+    "timestamp": "2024-03-12T19:19:35Z",
+    "amount": 58.43,
+    "currency": "USD",
+    "status": "pending"
+  },
+  {
+    "transaction_id": "T036",
+    "customer_id": "103",
+    "timestamp": "2024-03-28T01:41:13Z",
+    "amount": 361.1,
+    "currency": "USD",
+    "status": "completed"
+  },
+  {
+    "transaction_id": "T051",
+    "customer_id": "107",
+    "timestamp": "2024-03-30T14:10:12Z",
+    "amount": 282.49,
+    "currency": "USD",
+    "status": "completed"
+  },
+  {
+    "transaction_id": "T020",
+    "customer_id": "110",
+    "timestamp": "2024-03-20T04:24:03Z",
+    "amount": 108.69,
+    "currency": "USD",
+    "status": "failed"
+  },
+  {
+    "transaction_id": "T027",
+    "customer_id": "106",
+    "timestamp": "2024-03-18T04:43:55Z",
+    "amount": 28.37,
+    "currency": "USD",
+    "status": "pending"
+  },
+  {
+    "transaction_id": "T075",
+    "customer_id": "100",
+    "timestamp": "2024-03-04T11:21:07Z",
+    "amount": null,
+    "currency": "USD",
+    "status": "completed"
+  },
+  {
+    "transaction_id": "T037",
+    "customer_id": "107",
+    "timestamp": "2024-03-27T04:00:55Z",
+    "amount": 447.78,
+    "currency": "USD",
+    "status": "failed"
+  },
+  {
+    "transaction_id": "T021",
+    "customer_id": "110",
+    "timestamp": "2024-03-20T03:18:58Z",
+    "amount": 330.82,
+    "currency": "USD",
+    "status": "failed"
+  },
+  {
+    "transaction_id": "T042",
+    "customer_id": "108",
+    "timestamp": "2024-03-14T04:32:42Z",
+    "amount": 159.54,
+    "currency": "USD",
+    "status": "completed"
+  },
+  {
+    "transaction_id": "T067",
+    "customer_id": "107",
+    "timestamp": "2024-03-15T14:12:29Z",
+    "amount": null,
+    "currency": "USD",
+    "status": "pending"
+  },
+  {
+    "transaction_id": "T038",
+    "customer_id": "104",
+    "timestamp": "2024-03-26T19:59:19Z",
+    "amount": 112.26,
+    "currency": "USD",
+    "status": "completed"
+  },
+  {
+    "transaction_id": "T059",
+    "customer_id": "107",
+    "timestamp": "2024-03-04T07:25:44Z",
+    "amount": 112.62,
+    "currency": "USD",
+    "status": "pending"
+  },
+  {
+    "transaction_id": "T091",
+    "customer_id": "100",
+    "timestamp": "2024-03-22T15:45:06Z",
+    "amount": 13.07,
+    "currency": "USD",
+    "status": "pending"
+  },
+  {
+    "transaction_id": "T080",
+    "customer_id": "106",
+    "timestamp": "2024-03-08T21:19:27Z",
+    "amount": 317.86,
+    "currency": "USD",
+    "status": "pending"
+  },
+  {
+    "transaction_id": "T032",
+    "customer_id": "106",
+    "timestamp": "2024-03-27T16:53:37Z",
+    "amount": 412.49,
+    "currency": "USD",
+    "status": "pending"
+  },
+  {
+    "transaction_id": "T084",
+    "customer_id": "101",
+    "timestamp": "2024-03-11T11:59:15Z",
+    "amount": 404.42,
+    "currency": "USD",
+    "status": "completed"
+  },
+  {
+    "transaction_id": "T005",
+    "customer_id": "101",
+    "timestamp": "2024-03-17T02:38:26Z",
+    "amount": 422.84,
+    "currency": "USD",
+    "status": "failed"
+  },
+  {
+    "transaction_id": "T033",
+    "customer_id": "106",
+    "timestamp": "2024-03-20T10:20:46Z",
+    "amount": 398.2,
+    "currency": "USD",
+    "status": "completed"
+  },
+  {
+    "transaction_id": "T016",
+    "customer_id": "100",
+    "timestamp": "2024-03-15T08:04:48Z",
+    "amount": 253.73,
+    "currency": "USD",
+    "status": "pending"
+  },
+  {
+    "transaction_id": "T048",
+    "customer_id": "109",
+    "timestamp": "2024-03-28T00:52:12Z",
+    "amount": 127.78,
+    "currency": "USD",
+    "status": "pending"
+  },
+  {
+    "transaction_id": "T018",
+    "customer_id": "103",
+    "timestamp": "2024-03-04T08:49:56Z",
+    "amount": 210.95,
+    "currency": "USD",
+    "status": "completed"
+  },
+  {
+    "transaction_id": "T014",
+    "customer_id": "110",
+    "timestamp": "2024-03-24T06:15:56Z",
+    "amount": 250.14,
+    "currency": "USD",
+    "status": "failed"
+  },
+  {
+    "transaction_id": "T040",
+    "customer_id": "107",
+    "timestamp": "2024-03-08T04:45:19Z",
+    "amount": 348.84,
+    "currency": "USD",
+    "status": "failed"
+  },
+  {
+    "transaction_id": "T029",
+    "customer_id": "108",
+    "timestamp": "2024-03-16T15:06:05Z",
+    "amount": 147.79,
+    "currency": "USD",
+    "status": "completed"
+  },
+  {
+    "transaction_id": "T043",
+    "customer_id": "106",
+    "timestamp": "2024-03-04T06:26:34Z",
+    "amount": 266.5,
+    "currency": "USD",
+    "status": "failed"
+  },
+  {
+    "transaction_id": "T076",
+    "customer_id": "105",
+    "timestamp": "2024-03-12T03:33:09Z",
+    "amount": 49.62,
+    "currency": "USD",
+    "status": "pending"
+  },
+  {
+    "transaction_id": "T074",
+    "customer_id": "103",
+    "timestamp": "2024-03-13T02:50:17Z",
+    "amount": 251.54,
+    "currency": "USD",
+    "status": "failed"
+  },
+  {
+    "transaction_id": "T024",
+    "customer_id": "101",
+    "timestamp": "2024-03-02T01:29:24Z",
+    "amount": 204.68,
+    "currency": "USD",
+    "status": "failed"
+  },
+  {
+    "transaction_id": "T062",
+    "customer_id": "109",
+    "timestamp": "2024-03-24T22:46:17Z",
+    "amount": 471.84,
+    "currency": "USD",
+    "status": "completed"
+  },
+  {
+    "transaction_id": "T079",
+    "customer_id": "110",
+    "timestamp": "2024-03-24T12:51:30Z",
+    "amount": 377.78,
+    "currency": "USD",
+    "status": "pending"
+  },
+  {
+    "transaction_id": "T090",
+    "customer_id": "102",
+    "timestamp": "2024-03-09T22:15:33Z",
+    "amount": 282.25,
+    "currency": "USD",
+    "status": "failed"
+  },
+  {
+    "transaction_id": "T004",
+    "customer_id": "109",
+    "timestamp": "2024-03-13T20:23:16Z",
+    "amount": 238.76,
+    "currency": "USD",
+    "status": "completed"
+  },
+  {
+    "transaction_id": "T015",
+    "customer_id": "102",
+    "timestamp": "2024-03-12T00:24:23Z",
+    "amount": null,
+    "currency": "USD",
+    "status": "pending"
+  },
+  {
+    "transaction_id": "T054",
+    "customer_id": "101",
+    "timestamp": "2024-03-27T19:29:01Z",
+    "amount": 63.29,
+    "currency": "USD",
+    "status": "pending"
+  },
+  {
+    "transaction_id": "T025",
+    "customer_id": "106",
+    "timestamp": "2024-03-12T19:10:08Z",
+    "amount": 162.09,
+    "currency": "USD",
+    "status": "completed"
+  },
+  {
+    "transaction_id": "T083",
+    "customer_id": "106",
+    "timestamp": "2024-03-15T06:44:52Z",
+    "amount": 205.52,
+    "currency": "USD",
+    "status": "completed"
+  },
+  {
+    "transaction_id": "T077",
+    "customer_id": "107",
+    "timestamp": "2024-03-23T18:36:06Z",
+    "amount": null,
+    "currency": "USD",
+    "status": "failed"
+  },
+  {
+    "transaction_id": "T089",
+    "customer_id": "102",
+    "timestamp": "2024-03-04T05:44:34Z",
+    "amount": 266.27,
+    "currency": "USD",
+    "status": "completed"
+  },
+  {
+    "transaction_id": "T045",
+    "customer_id": "103",
+    "timestamp": "2024-03-29T22:44:24Z",
+    "amount": 186.3,
+    "currency": "USD",
+    "status": "failed"
+  },
+  {
+    "transaction_id": "T093",
+    "customer_id": "105",
+    "timestamp": "2024-03-28T19:31:26Z",
+    "amount": 323.83,
+    "currency": "USD",
+    "status": "failed"
+  },
+  {
+    "transaction_id": "T049",
+    "customer_id": "102",
+    "timestamp": "2024-03-15T00:36:16Z",
+    "amount": 170.71,
+    "currency": "USD",
+    "status": "pending"
+  },
+  {
+    "transaction_id": "T044",
+    "customer_id": "100",
+    "timestamp": "2024-03-12T10:11:41Z",
+    "amount": 456.13,
+    "currency": "USD",
+    "status": "completed"
+  },
+  {
+    "transaction_id": "T096",
+    "customer_id": "106",
+    "timestamp": "2024-03-04T03:31:14Z",
+    "amount": 162.36,
+    "currency": "USD",
+    "status": "completed"
+  },
+  {
+    "transaction_id": "T028",
+    "customer_id": "105",
+    "timestamp": "2024-03-20T19:48:07Z",
+    "amount": 496.01,
+    "currency": "USD",
+    "status": "failed"
+  },
+  {
+    "transaction_id": "T085",
+    "customer_id": "102",
+    "timestamp": "2024-03-14T15:37:54Z",
+    "amount": 119.25,
+    "currency": "USD",
+    "status": "pending"
+  },
+  {
+    "transaction_id": "T099",
+    "customer_id": "108",
+    "timestamp": "2024-03-18T06:52:08Z",
+    "amount": 431.48,
+    "currency": "USD",
+    "status": "completed"
+  },
+  {
+    "transaction_id": "T031",
+    "customer_id": "104",
+    "timestamp": "2024-03-26T20:17:03Z",
+    "amount": 311.26,
+    "currency": "USD",
+    "status": "pending"
+  },
+  {
+    "transaction_id": "T003",
+    "customer_id": "101",
+    "timestamp": "2024-03-03T18:45:00Z",
+    "amount": 50.75,
+    "currency": "USD",
+    "status": "completed"
+  },
+  {
+    "transaction_id": "T022",
+    "customer_id": "103",
+    "timestamp": "2024-03-01T05:23:35Z",
+    "amount": 242.82,
+    "currency": "USD",
+    "status": "completed"
+  },
+  {
+    "transaction_id": "T064",
+    "customer_id": "100",
+    "timestamp": "2024-03-09T15:42:45Z",
+    "amount": 328.07,
+    "currency": "USD",
+    "status": "pending"
+  },
+  {
+    "transaction_id": "T023",
+    "customer_id": "103",
+    "timestamp": "2024-03-18T20:01:52Z",
+    "amount": 443.51,
+    "currency": "USD",
+    "status": "failed"
+  },
+  {
+    "transaction_id": "T030",
+    "customer_id": "100",
+    "timestamp": "2024-03-29T14:39:12Z",
+    "amount": null,
+    "currency": "USD",
+    "status": "failed"
+  },
+  {
+    "transaction_id": "T052",
+    "customer_id": "100",
+    "timestamp": "2024-03-05T14:43:51Z",
+    "amount": 474.99,
+    "currency": "USD",
+    "status": "completed"
+  },
+  {
+    "transaction_id": "T100",
+    "customer_id": "108",
+    "timestamp": "2024-03-26T13:25:10Z",
+    "amount": 369.67,
+    "currency": "USD",
+    "status": "failed"
+  },
+  {
+    "transaction_id": "T061",
+    "customer_id": "105",
+    "timestamp": "2024-03-15T20:07:17Z",
+    "amount": 412.66,
+    "currency": "USD",
+    "status": "failed"
+  },
+  {
+    "transaction_id": "T095",
+    "customer_id": "102",
+    "timestamp": "2024-03-01T02:30:24Z",
+    "amount": 190.4,
+    "currency": "USD",
+    "status": "pending"
+  },
+  {
+    "transaction_id": "T013",
+    "customer_id": "106",
+    "timestamp": "2024-03-11T04:04:32Z",
+    "amount": 499.08,
+    "currency": "USD",
+    "status": "completed"
+  },
+  {
+    "transaction_id": "T072",
+    "customer_id": "105",
+    "timestamp": "2024-03-12T12:21:11Z",
+    "amount": 400.82,
+    "currency": "USD",
+    "status": "failed"
+  },
+  {
+    "transaction_id": "T087",
+    "customer_id": "100",
+    "timestamp": "2024-03-29T02:09:31Z",
+    "amount": 181.92,
+    "currency": "USD",
+    "status": "pending"
+  },
+  {
+    "transaction_id": "T094",
+    "customer_id": "104",
+    "timestamp": "2024-03-06T14:56:37Z",
+    "amount": 340.96,
+    "currency": "USD",
+    "status": "completed"
+  },
+  {
+    "transaction_id": "T086",
+    "customer_id": "103",
+    "timestamp": "2024-03-02T22:46:51Z",
+    "amount": 446.22,
+    "currency": "USD",
+    "status": "pending"
+  },
+  {
+    "transaction_id": "T063",
+    "customer_id": "107",
+    "timestamp": "2024-03-17T14:12:51Z",
+    "amount": 478.13,
+    "currency": "USD",
+    "status": "failed"
+  },
+  {
+    "transaction_id": "T035",
+    "customer_id": "107",
+    "timestamp": "2024-03-22T00:25:04Z",
+    "amount": 498.97,
+    "currency": "USD",
+    "status": "pending"
+  },
+  {
+    "transaction_id": "T034",
+    "customer_id": "109",
+    "timestamp": "2024-03-23T01:39:24Z",
+    "amount": 187.38,
+    "currency": "USD",
+    "status": "pending"
+  },
+  {
+    "transaction_id": "T012",
+    "customer_id": "108",
+    "timestamp": "2024-03-10T09:05:02Z",
+    "amount": 172.57,
+    "currency": "USD",
+    "status": "pending"
+  },
+  {
+    "transaction_id": "T039",
+    "customer_id": "109",
+    "timestamp": "2024-03-28T13:40:40Z",
+    "amount": 31.15,
+    "currency": "USD",
+    "status": "failed"
+  },
+  {
+    "transaction_id": "T066",
+    "customer_id": "107",
+    "timestamp": "2024-03-10T02:19:18Z",
+    "amount": 256.63,
+    "currency": "USD",
+    "status": "failed"
+  },
+  {
+    "transaction_id": "T098",
+    "customer_id": "101",
+    "timestamp": "2024-03-07T01:56:15Z",
+    "amount": 51.74,
+    "currency": "USD",
+    "status": "completed"
+  },
+  {
+    "transaction_id": "T069",
+    "customer_id": "102",
+    "timestamp": "2024-03-08T07:04:28Z",
+    "amount": 474.59,
+    "currency": "USD",
+    "status": "pending"
+  },
+  {
+    "transaction_id": "T078",
+    "customer_id": "102",
+    "timestamp": "2024-03-23T07:49:48Z",
+    "amount": 401.06,
+    "currency": "USD",
+    "status": "failed"
+  },
+  {
+    "transaction_id": "T017",
+    "customer_id": "105",
+    "timestamp": "2024-03-26T04:30:37Z",
+    "amount": 385.42,
+    "currency": "USD",
+    "status": "failed"
+  },
+  {
+    "transaction_id": "T019",
+    "customer_id": "104",
+    "timestamp": "2024-03-10T23:02:05Z",
+    "amount": 412.77,
+    "currency": "USD",
+    "status": "pending"
+  },
+  {
+    "transaction_id": "T003",
+    "customer_id": "101",
+    "timestamp": "2024-03-03T18:45:00Z",
+    "amount": 50.75,
+    "currency": "USD",
+    "status": "completed"
+  },
+  {
+    "transaction_id": "T001",
+    "customer_id": "101",
+    "timestamp": "2024-03-01T12:34:56Z",
+    "amount": 100.5,
+    "currency": "USD",
+    "status": "completed"
+  },
+  {
+    "transaction_id": "T046",
+    "customer_id": "102",
+    "timestamp": "2024-03-21T22:09:38Z",
+    "amount": 392.78,
+    "currency": "USD",
+    "status": "pending"
+  },
+  {
+    "transaction_id": "T081",
+    "customer_id": "101",
+    "timestamp": "2024-03-08T15:17:45Z",
+    "amount": 362.56,
+    "currency": "USD",
+    "status": "completed"
+  },
+  {
+    "transaction_id": "T057",
+    "customer_id": "109",
+    "timestamp": "2024-03-13T18:34:45Z",
+    "amount": 160.77,
+    "currency": "USD",
+    "status": "pending"
+  },
+  {
+    "transaction_id": "T002",
+    "customer_id": "102",
+    "timestamp": "2024-03-02T15:20:30Z",
+    "amount": 200.0,
+    "currency": "USD",
+    "status": "failed"
+  },
+  {
+    "transaction_id": "T055",
+    "customer_id": "106",
+    "timestamp": "2024-03-20T06:27:12Z",
+    "amount": 365.93,
+    "currency": "USD",
+    "status": "failed"
+  },
+  {
+    "transaction_id": "T002",
+    "customer_id": "102",
+    "timestamp": "2024-03-02T15:20:30Z",
+    "amount": 200.0,
+    "currency": "USD",
+    "status": "failed"
+  },
+  {
+    "transaction_id": "T056",
+    "customer_id": "110",
+    "timestamp": "2024-03-10T18:42:32Z",
+    "amount": 26.54,
+    "currency": "USD",
+    "status": "pending"
+  },
+  {
+    "transaction_id": "T088",
+    "customer_id": "104",
+    "timestamp": "2024-03-08T10:47:01Z",
+    "amount": 450.11,
+    "currency": "USD",
+    "status": "pending"
+  },
+  {
+    "transaction_id": "T058",
+    "customer_id": "100",
+    "timestamp": "2024-03-07T10:53:16Z",
+    "amount": 221.69,
+    "currency": "USD",
+    "status": "completed"
+  },
+  {
+    "transaction_id": "T026",
+    "customer_id": "100",
+    "timestamp": "2024-03-18T21:54:41Z",
+    "amount": 85.79,
+    "currency": "USD",
+    "status": "completed"
+  },
+  {
+    "transaction_id": "T071",
+    "customer_id": "104",
+    "timestamp": "2024-03-09T12:55:25Z",
+    "amount": 392.86,
+    "currency": "USD",
+    "status": "completed"
+  },
+  {
+    "transaction_id": "T001",
+    "customer_id": "101",
+    "timestamp": "2024-03-01T12:34:56Z",
+    "amount": 100.5,
+    "currency": "USD",
+    "status": "completed"
+  },
+  {
+    "transaction_id": "T010",
+    "customer_id": "102",
+    "timestamp": "2024-03-15T13:57:05Z",
+    "amount": 230.38,
+    "currency": "USD",
+    "status": "pending"
+  },
+  {
+    "transaction_id": "T047",
+    "customer_id": "107",
+    "timestamp": "2024-03-29T19:15:33Z",
+    "amount": 158.93,
+    "currency": "USD",
+    "status": "failed"
+  },
+  {
+    "transaction_id": "T041",
+    "customer_id": "109",
+    "timestamp": "2024-03-17T09:26:07Z",
+    "amount": 50.66,
+    "currency": "USD",
+    "status": "completed"
+  },
+  {
+    "transaction_id": "T060",
+    "customer_id": "100",
+    "timestamp": "2024-03-06T09:36:50Z",
+    "amount": 367.2,
+    "currency": "USD",
+    "status": "failed"
+  },
+  {
+    "transaction_id": "T097",
+    "customer_id": "110",
+    "timestamp": "2024-03-16T15:13:52Z",
+    "amount": 331.22,
+    "currency": "USD",
+    "status": "completed"
+  },
+  {
+    "transaction_id": "T082",
+    "customer_id": "107",
+    "timestamp": "2024-03-16T23:12:57Z",
+    "amount": 17.63,
+    "currency": "USD",
+    "status": "completed"
+  },
+  {
+    "transaction_id": "T003",
+    "customer_id": "101",
+    "timestamp": "2024-03-03T18:45:00Z",
+    "amount": 50.75,
+    "currency": "USD",
+    "status": "completed"
+  },
+  {
+    "transaction_id": "T011",
+    "customer_id": "104",
+    "timestamp": "2024-03-15T08:31:06Z",
+    "amount": 493.66,
+    "currency": "USD",
+    "status": "completed"
+  },
+  {
+    "transaction_id": "T050",
+    "customer_id": "100",
+    "timestamp": "2024-03-20T11:34:20Z",
+    "amount": 228.38,
+    "currency": "USD",
+    "status": "pending"
+  }
+]

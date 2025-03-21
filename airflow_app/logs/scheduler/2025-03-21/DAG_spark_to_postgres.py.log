@@ -1,0 +1,677 @@
+[2025-03-21T03:05:12.611+0000] {processor.py:186} INFO - Started process (PID=169) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:05:12.612+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T03:05:12.614+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:05:12.614+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:05:12.640+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:05:12.807+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:05:12.806+0000] {override.py:1911} INFO - Created Permission View: can read on DAG:spark_to_postgres_dag
+[2025-03-21T03:05:12.813+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:05:12.813+0000] {override.py:1911} INFO - Created Permission View: can edit on DAG:spark_to_postgres_dag
+[2025-03-21T03:05:12.817+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:05:12.817+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG:spark_to_postgres_dag
+[2025-03-21T03:05:12.822+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:05:12.822+0000] {override.py:1911} INFO - Created Permission View: can create on DAG Run:spark_to_postgres_dag
+[2025-03-21T03:05:12.826+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:05:12.826+0000] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:spark_to_postgres_dag
+[2025-03-21T03:05:12.830+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:05:12.830+0000] {override.py:1911} INFO - Created Permission View: can read on DAG Run:spark_to_postgres_dag
+[2025-03-21T03:05:12.835+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:05:12.835+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:spark_to_postgres_dag
+[2025-03-21T03:05:12.835+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:05:12.835+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T03:05:12.845+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:05:12.845+0000] {dag.py:3262} INFO - Creating ORM DAG for spark_to_postgres_dag
+[2025-03-21T03:05:12.846+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:05:12.846+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T03:05:12.858+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.251 seconds
+[2025-03-21T03:05:22.670+0000] {processor.py:186} INFO - Started process (PID=174) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:05:22.671+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T03:05:22.672+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:05:22.672+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:05:22.690+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:05:22.697+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:05:22.696+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T03:05:22.706+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:05:22.706+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T03:05:22.720+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.054 seconds
+[2025-03-21T03:05:39.764+0000] {processor.py:186} INFO - Started process (PID=179) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:05:39.765+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T03:05:39.766+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:05:39.766+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:05:39.783+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:05:39.792+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:05:39.792+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T03:05:39.803+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:05:39.803+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T03:05:39.817+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.057 seconds
+[2025-03-21T03:05:43.843+0000] {processor.py:186} INFO - Started process (PID=184) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:05:43.843+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T03:05:43.845+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:05:43.845+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:05:43.863+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:05:43.951+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:05:43.951+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T03:05:43.959+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:05:43.959+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T03:05:43.974+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.135 seconds
+[2025-03-21T03:05:49.889+0000] {processor.py:186} INFO - Started process (PID=189) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:05:49.889+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T03:05:49.891+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:05:49.891+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:05:49.911+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:05:49.918+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:05:49.918+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T03:05:49.929+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:05:49.929+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T03:05:49.944+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.059 seconds
+[2025-03-21T03:06:20.046+0000] {processor.py:186} INFO - Started process (PID=198) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:06:20.047+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T03:06:20.049+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:06:20.048+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:06:20.060+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:06:20.077+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:06:20.076+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T03:06:20.086+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:06:20.086+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T03:06:20.101+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.059 seconds
+[2025-03-21T03:06:50.288+0000] {processor.py:186} INFO - Started process (PID=203) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:06:50.289+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T03:06:50.290+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:06:50.290+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:06:50.302+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:06:50.320+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:06:50.320+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T03:06:50.331+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:06:50.331+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T03:06:50.344+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.060 seconds
+[2025-03-21T03:07:20.514+0000] {processor.py:186} INFO - Started process (PID=208) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:07:20.514+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T03:07:20.516+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:07:20.515+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:07:20.526+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:07:20.540+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:07:20.540+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T03:07:20.551+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:07:20.551+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T03:07:20.561+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.052 seconds
+[2025-03-21T03:07:50.719+0000] {processor.py:186} INFO - Started process (PID=213) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:07:50.720+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T03:07:50.721+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:07:50.721+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:07:50.733+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:07:50.750+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:07:50.750+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T03:07:50.759+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:07:50.759+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T03:07:50.770+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.054 seconds
+[2025-03-21T03:10:43.621+0000] {processor.py:186} INFO - Started process (PID=169) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:10:43.622+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T03:10:43.624+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:10:43.624+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:10:43.644+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:10:43.670+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:10:43.670+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T03:10:43.680+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:10:43.680+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T03:10:43.696+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.079 seconds
+[2025-03-21T03:10:54.709+0000] {processor.py:186} INFO - Started process (PID=174) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:10:54.710+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T03:10:54.711+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:10:54.711+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:10:54.731+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:10:54.901+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:10:54.901+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T03:10:54.909+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:10:54.909+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T03:10:54.922+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.218 seconds
+[2025-03-21T03:11:24.967+0000] {processor.py:186} INFO - Started process (PID=179) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:11:24.968+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T03:11:24.969+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:11:24.969+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:11:24.980+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:11:24.996+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:11:24.996+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T03:11:25.006+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:11:25.005+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T03:11:25.017+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.053 seconds
+[2025-03-21T03:11:55.168+0000] {processor.py:186} INFO - Started process (PID=184) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:11:55.169+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T03:11:55.170+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:11:55.170+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:11:55.181+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:11:55.197+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:11:55.197+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T03:11:55.208+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:11:55.208+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T03:11:55.220+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.055 seconds
+[2025-03-21T03:12:25.436+0000] {processor.py:186} INFO - Started process (PID=189) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:12:25.437+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T03:12:25.439+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:12:25.438+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:12:25.449+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:12:25.464+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:12:25.464+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T03:12:25.473+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:12:25.472+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T03:12:25.484+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.051 seconds
+[2025-03-21T03:12:41.528+0000] {processor.py:186} INFO - Started process (PID=194) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:12:41.529+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T03:12:41.530+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:12:41.530+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:12:41.549+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:12:41.564+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:12:41.564+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T03:12:41.576+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:12:41.576+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T03:12:41.589+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.065 seconds
+[2025-03-21T03:12:44.589+0000] {processor.py:186} INFO - Started process (PID=199) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:12:44.590+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T03:12:44.591+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:12:44.591+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:12:44.611+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:12:44.628+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:12:44.628+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T03:12:44.638+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:12:44.638+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T03:12:44.651+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.066 seconds
+[2025-03-21T03:13:14.785+0000] {processor.py:186} INFO - Started process (PID=204) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:13:14.785+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T03:13:14.787+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:13:14.787+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:13:14.797+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:13:14.812+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:13:14.811+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T03:13:14.820+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:13:14.820+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T03:13:14.833+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.052 seconds
+[2025-03-21T03:13:44.955+0000] {processor.py:186} INFO - Started process (PID=209) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:13:44.955+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T03:13:44.957+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:13:44.956+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:13:44.970+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:13:44.988+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:13:44.988+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T03:13:44.998+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:13:44.998+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T03:13:45.010+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.060 seconds
+[2025-03-21T03:14:15.145+0000] {processor.py:186} INFO - Started process (PID=229) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:14:15.145+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T03:14:15.147+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:14:15.147+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:14:15.161+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:14:15.178+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:14:15.178+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T03:14:15.187+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:14:15.187+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T03:14:15.201+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.060 seconds
+[2025-03-21T03:14:45.313+0000] {processor.py:186} INFO - Started process (PID=234) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:14:45.313+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T03:14:45.315+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:14:45.315+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:14:45.325+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:14:45.341+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:14:45.341+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T03:14:45.351+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:14:45.351+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T03:14:45.362+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.053 seconds
+[2025-03-21T03:15:15.497+0000] {processor.py:186} INFO - Started process (PID=239) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:15:15.497+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T03:15:15.499+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:15:15.499+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:15:15.510+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:15:15.528+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:15:15.527+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T03:15:15.538+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:15:15.537+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T03:15:15.549+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.056 seconds
+[2025-03-21T03:15:45.694+0000] {processor.py:186} INFO - Started process (PID=244) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:15:45.695+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T03:15:45.696+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:15:45.696+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:15:45.709+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:15:45.727+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:15:45.727+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T03:15:45.739+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:15:45.738+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T03:15:45.754+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.064 seconds
+[2025-03-21T03:16:03.829+0000] {processor.py:186} INFO - Started process (PID=169) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:16:03.830+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T03:16:03.831+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:16:03.831+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:16:03.846+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:16:03.870+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:16:03.869+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T03:16:03.880+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:16:03.880+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T03:16:03.894+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.070 seconds
+[2025-03-21T03:16:33.979+0000] {processor.py:186} INFO - Started process (PID=187) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:16:33.979+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T03:16:33.981+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:16:33.981+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:16:33.992+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:16:34.013+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:16:34.013+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T03:16:34.023+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:16:34.023+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T03:16:34.034+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.059 seconds
+[2025-03-21T03:17:14.539+0000] {processor.py:186} INFO - Started process (PID=169) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:17:14.539+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T03:17:14.541+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:17:14.541+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:17:14.554+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:17:14.573+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:17:14.573+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T03:17:14.582+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:17:14.582+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T03:17:14.595+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.061 seconds
+[2025-03-21T03:17:44.707+0000] {processor.py:186} INFO - Started process (PID=186) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:17:44.707+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T03:17:44.709+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:17:44.709+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:17:44.721+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:17:44.738+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:17:44.738+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T03:17:44.748+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:17:44.748+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T03:17:44.763+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.061 seconds
+[2025-03-21T03:18:14.923+0000] {processor.py:186} INFO - Started process (PID=191) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:18:14.923+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T03:18:14.925+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:18:14.925+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:18:14.936+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:18:14.951+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:18:14.951+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T03:18:14.960+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:18:14.960+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T03:18:14.971+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.052 seconds
+[2025-03-21T03:18:45.119+0000] {processor.py:186} INFO - Started process (PID=196) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:18:45.119+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T03:18:45.121+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:18:45.121+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:18:45.133+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:18:45.147+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:18:45.147+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T03:18:45.156+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:18:45.156+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T03:18:45.167+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.051 seconds
+[2025-03-21T03:19:15.414+0000] {processor.py:186} INFO - Started process (PID=216) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:19:15.415+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T03:19:15.417+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:19:15.416+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:19:15.428+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:19:15.445+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:19:15.444+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T03:19:15.456+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:19:15.456+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T03:19:15.473+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.063 seconds
+[2025-03-21T03:19:45.577+0000] {processor.py:186} INFO - Started process (PID=221) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:19:45.577+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T03:19:45.579+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:19:45.579+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:19:45.589+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:19:45.604+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:19:45.604+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T03:19:45.614+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:19:45.614+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T03:19:45.626+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.053 seconds
+[2025-03-21T03:20:15.827+0000] {processor.py:186} INFO - Started process (PID=226) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:20:15.828+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T03:20:15.830+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:20:15.829+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:20:15.841+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:20:15.858+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:20:15.857+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T03:20:15.867+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:20:15.867+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T03:20:15.879+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.055 seconds
+[2025-03-21T03:20:46.060+0000] {processor.py:186} INFO - Started process (PID=231) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:20:46.060+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T03:20:46.062+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:20:46.062+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:20:46.074+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:20:46.090+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:20:46.090+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T03:20:46.101+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:20:46.101+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T03:20:46.114+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.059 seconds
+[2025-03-21T03:21:16.232+0000] {processor.py:186} INFO - Started process (PID=236) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:21:16.232+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T03:21:16.234+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:21:16.233+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:21:16.246+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:21:16.269+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:21:16.269+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T03:21:16.280+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:21:16.280+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T03:21:16.295+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.067 seconds
+[2025-03-21T03:21:18.297+0000] {processor.py:186} INFO - Started process (PID=241) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:21:18.297+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T03:21:18.299+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:21:18.299+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:21:18.317+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:21:18.395+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:21:18.395+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T03:21:18.405+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:21:18.404+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T03:21:18.428+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.135 seconds
+[2025-03-21T03:21:19.346+0000] {processor.py:186} INFO - Started process (PID=246) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:21:19.347+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T03:21:19.349+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:21:19.349+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:21:19.375+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:21:19.386+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:21:19.386+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T03:21:19.398+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:21:19.398+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T03:21:19.418+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.076 seconds
+[2025-03-21T03:21:35.423+0000] {processor.py:186} INFO - Started process (PID=264) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:21:35.424+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T03:21:35.425+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:21:35.425+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:21:35.442+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:21:35.449+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:21:35.449+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T03:21:35.459+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:21:35.459+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T03:21:35.472+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.053 seconds
+[2025-03-21T03:22:05.594+0000] {processor.py:186} INFO - Started process (PID=269) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:22:05.595+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T03:22:05.596+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:22:05.596+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:22:05.606+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:22:05.624+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:22:05.624+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T03:22:05.633+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:22:05.633+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T03:22:05.644+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.053 seconds
+[2025-03-21T03:22:35.840+0000] {processor.py:186} INFO - Started process (PID=274) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:22:35.841+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T03:22:35.843+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:22:35.842+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:22:35.856+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:22:35.873+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:22:35.873+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T03:22:35.883+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:22:35.883+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T03:22:35.894+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.058 seconds
+[2025-03-21T03:23:05.988+0000] {processor.py:186} INFO - Started process (PID=279) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:23:05.989+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T03:23:05.990+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:23:05.990+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:23:06.003+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:23:06.019+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:23:06.019+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T03:23:06.030+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:23:06.030+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T03:23:06.041+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.056 seconds
+[2025-03-21T03:23:36.215+0000] {processor.py:186} INFO - Started process (PID=284) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:23:36.215+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T03:23:36.217+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:23:36.217+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:23:36.227+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:23:36.242+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:23:36.242+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T03:23:36.253+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:23:36.253+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T03:23:36.266+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.054 seconds
+[2025-03-21T03:24:06.408+0000] {processor.py:186} INFO - Started process (PID=289) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:24:06.409+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T03:24:06.412+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:24:06.412+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:24:06.426+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:24:06.444+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:24:06.443+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T03:24:06.455+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:24:06.455+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T03:24:06.469+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.066 seconds
+[2025-03-21T03:24:36.581+0000] {processor.py:186} INFO - Started process (PID=294) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:24:36.581+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T03:24:36.583+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:24:36.583+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:24:36.594+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:24:36.610+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:24:36.610+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T03:24:36.620+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:24:36.620+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T03:24:36.632+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.055 seconds
+[2025-03-21T03:24:57.952+0000] {processor.py:186} INFO - Started process (PID=299) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:24:57.952+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T03:24:57.954+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:24:57.953+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:24:57.970+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:24:57.966+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/DAG_spark_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/DAG_spark_to_postgres.py", line 18, in <module>
+    run_spark = DockerOperator(
+                ^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 501, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/docker/operators/docker.py", line 273, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 501, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 949, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to DockerOperator (task_id: run_spark_processing). Invalid arguments were:
+**kwargs: {'volumes': ['/absolute/path/to/helpers:/opt/spark/helpers', '/absolute/path/to/data:/opt/spark/data']}
+[2025-03-21T03:24:57.971+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:24:57.983+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.035 seconds
+[2025-03-21T03:25:28.122+0000] {processor.py:186} INFO - Started process (PID=304) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:25:28.123+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T03:25:28.124+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:25:28.124+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:25:28.133+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:25:28.131+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/DAG_spark_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/DAG_spark_to_postgres.py", line 18, in <module>
+    run_spark = DockerOperator(
+                ^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 501, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/docker/operators/docker.py", line 273, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 501, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 949, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to DockerOperator (task_id: run_spark_processing). Invalid arguments were:
+**kwargs: {'volumes': ['/absolute/path/to/helpers:/opt/spark/helpers', '/absolute/path/to/data:/opt/spark/data']}
+[2025-03-21T03:25:28.134+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:25:28.146+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.028 seconds
+[2025-03-21T03:25:58.350+0000] {processor.py:186} INFO - Started process (PID=309) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:25:58.351+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T03:25:58.353+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:25:58.352+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:25:58.362+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:25:58.360+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/DAG_spark_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/DAG_spark_to_postgres.py", line 18, in <module>
+    run_spark = DockerOperator(
+                ^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 501, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/docker/operators/docker.py", line 273, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 501, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 949, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to DockerOperator (task_id: run_spark_processing). Invalid arguments were:
+**kwargs: {'volumes': ['/absolute/path/to/helpers:/opt/spark/helpers', '/absolute/path/to/data:/opt/spark/data']}
+[2025-03-21T03:25:58.363+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:25:58.374+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.028 seconds
+[2025-03-21T03:26:28.577+0000] {processor.py:186} INFO - Started process (PID=314) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:26:28.579+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T03:26:28.580+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:26:28.579+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:26:28.593+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:26:28.589+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/DAG_spark_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/DAG_spark_to_postgres.py", line 18, in <module>
+    run_spark = DockerOperator(
+                ^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 501, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/docker/operators/docker.py", line 273, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 501, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 949, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to DockerOperator (task_id: run_spark_processing). Invalid arguments were:
+**kwargs: {'volumes': ['/absolute/path/to/helpers:/opt/spark/helpers', '/absolute/path/to/data:/opt/spark/data']}
+[2025-03-21T03:26:28.593+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:26:28.606+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.034 seconds
+[2025-03-21T03:26:58.814+0000] {processor.py:186} INFO - Started process (PID=319) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:26:58.814+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T03:26:58.815+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:26:58.815+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:26:58.825+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:26:58.823+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/DAG_spark_to_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/DAG_spark_to_postgres.py", line 18, in <module>
+    run_spark = DockerOperator(
+                ^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 501, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/docker/operators/docker.py", line 273, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 501, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 949, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to DockerOperator (task_id: run_spark_processing). Invalid arguments were:
+**kwargs: {'volumes': ['/absolute/path/to/helpers:/opt/spark/helpers', '/absolute/path/to/data:/opt/spark/data']}
+[2025-03-21T03:26:58.826+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:26:58.837+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.028 seconds
+[2025-03-21T03:27:11.894+0000] {processor.py:186} INFO - Started process (PID=324) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:27:11.895+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T03:27:11.895+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:27:11.895+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:27:11.914+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:27:12.094+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:27:12.094+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T03:27:12.103+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:27:12.103+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T03:27:12.118+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.229 seconds
+[2025-03-21T03:27:18.174+0000] {processor.py:186} INFO - Started process (PID=329) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:27:18.174+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T03:27:18.176+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:27:18.175+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:27:18.193+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:27:18.200+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:27:18.200+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T03:27:18.211+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:27:18.210+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T03:27:18.312+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.143 seconds
+[2025-03-21T03:27:23.205+0000] {processor.py:186} INFO - Started process (PID=334) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:27:23.205+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T03:27:23.206+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:27:23.206+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:27:23.225+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:27:23.234+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:27:23.234+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T03:27:23.246+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:27:23.246+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T03:27:23.362+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.161 seconds
+[2025-03-21T03:27:53.504+0000] {processor.py:186} INFO - Started process (PID=343) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:27:53.505+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T03:27:53.506+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:27:53.506+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:27:53.519+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:27:53.539+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:27:53.539+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T03:27:53.551+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:27:53.551+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T03:27:53.569+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.070 seconds
+[2025-03-21T03:28:22.749+0000] {processor.py:186} INFO - Started process (PID=348) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:28:22.750+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T03:28:22.750+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:28:22.750+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:28:22.771+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:28:22.791+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:28:22.790+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T03:28:22.801+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:28:22.801+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T03:28:22.816+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.071 seconds
+[2025-03-21T03:28:52.908+0000] {processor.py:186} INFO - Started process (PID=353) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:28:52.908+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T03:28:52.909+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:28:52.909+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:28:52.920+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:28:52.936+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:28:52.935+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T03:28:52.945+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:28:52.945+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T03:28:52.956+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.052 seconds
+[2025-03-21T03:29:10.045+0000] {processor.py:186} INFO - Started process (PID=358) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:29:10.046+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T03:29:10.047+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:29:10.047+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:29:10.066+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:29:10.083+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:29:10.083+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T03:29:10.093+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:29:10.093+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T03:29:10.107+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.066 seconds
+[2025-03-21T03:29:11.065+0000] {processor.py:186} INFO - Started process (PID=363) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:29:11.065+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T03:29:11.067+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:29:11.066+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:29:11.085+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:29:11.102+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:29:11.102+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T03:29:11.113+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:29:11.112+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T03:29:11.128+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.068 seconds
+[2025-03-21T03:29:41.293+0000] {processor.py:186} INFO - Started process (PID=368) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:29:41.294+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T03:29:41.295+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:29:41.294+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:29:41.306+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:29:41.322+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:29:41.322+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T03:29:41.333+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:29:41.333+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T03:29:41.439+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.150 seconds
+[2025-03-21T03:30:11.477+0000] {processor.py:186} INFO - Started process (PID=373) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:30:11.477+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T03:30:11.478+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:30:11.478+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:30:11.489+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:30:11.506+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:30:11.505+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T03:30:11.618+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:30:11.618+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T03:30:11.635+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.163 seconds
+[2025-03-21T03:30:41.821+0000] {processor.py:186} INFO - Started process (PID=378) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:30:41.822+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T03:30:41.823+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:30:41.822+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:30:41.842+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T03:30:42.008+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:30:42.008+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T03:30:42.021+0000] {logging_mixin.py:190} INFO - [2025-03-21T03:30:42.020+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T03:30:42.037+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.224 seconds
+[2025-03-21T04:13:45.985+0000] {processor.py:186} INFO - Started process (PID=169) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T04:13:45.986+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T04:13:45.987+0000] {logging_mixin.py:190} INFO - [2025-03-21T04:13:45.987+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T04:13:46.010+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T04:13:46.033+0000] {logging_mixin.py:190} INFO - [2025-03-21T04:13:46.033+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T04:13:46.046+0000] {logging_mixin.py:190} INFO - [2025-03-21T04:13:46.046+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T04:13:46.064+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.084 seconds
+[2025-03-21T04:13:50.028+0000] {processor.py:186} INFO - Started process (PID=174) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T04:13:50.029+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T04:13:50.030+0000] {logging_mixin.py:190} INFO - [2025-03-21T04:13:50.030+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T04:13:50.050+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T04:13:50.069+0000] {logging_mixin.py:190} INFO - [2025-03-21T04:13:50.068+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T04:13:50.079+0000] {logging_mixin.py:190} INFO - [2025-03-21T04:13:50.079+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T04:13:50.095+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.071 seconds
+[2025-03-21T04:14:20.235+0000] {processor.py:186} INFO - Started process (PID=179) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T04:14:20.235+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T04:14:20.237+0000] {logging_mixin.py:190} INFO - [2025-03-21T04:14:20.237+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T04:14:20.249+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T04:14:20.266+0000] {logging_mixin.py:190} INFO - [2025-03-21T04:14:20.265+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T04:14:20.275+0000] {logging_mixin.py:190} INFO - [2025-03-21T04:14:20.275+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T04:14:20.289+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.058 seconds
+[2025-03-21T04:14:30.299+0000] {processor.py:186} INFO - Started process (PID=184) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T04:14:30.299+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T04:14:30.301+0000] {logging_mixin.py:190} INFO - [2025-03-21T04:14:30.301+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T04:14:30.319+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T04:14:30.435+0000] {logging_mixin.py:190} INFO - [2025-03-21T04:14:30.434+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T04:14:30.443+0000] {logging_mixin.py:190} INFO - [2025-03-21T04:14:30.443+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T04:14:30.460+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.166 seconds
+[2025-03-21T04:14:32.378+0000] {processor.py:186} INFO - Started process (PID=189) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T04:14:32.379+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T04:14:32.381+0000] {logging_mixin.py:190} INFO - [2025-03-21T04:14:32.381+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T04:14:32.401+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T04:14:32.408+0000] {logging_mixin.py:190} INFO - [2025-03-21T04:14:32.408+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T04:14:32.419+0000] {logging_mixin.py:190} INFO - [2025-03-21T04:14:32.419+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T04:14:32.435+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.061 seconds
+[2025-03-21T04:15:02.552+0000] {processor.py:186} INFO - Started process (PID=194) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T04:15:02.554+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T04:15:02.558+0000] {logging_mixin.py:190} INFO - [2025-03-21T04:15:02.558+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T04:15:02.580+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T04:15:02.614+0000] {logging_mixin.py:190} INFO - [2025-03-21T04:15:02.614+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T04:15:02.633+0000] {logging_mixin.py:190} INFO - [2025-03-21T04:15:02.633+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T04:15:02.652+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.111 seconds
+[2025-03-21T04:15:13.649+0000] {processor.py:186} INFO - Started process (PID=199) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T04:15:13.651+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T04:15:13.655+0000] {logging_mixin.py:190} INFO - [2025-03-21T04:15:13.655+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T04:15:13.682+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T04:15:13.711+0000] {logging_mixin.py:190} INFO - [2025-03-21T04:15:13.711+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T04:15:13.727+0000] {logging_mixin.py:190} INFO - [2025-03-21T04:15:13.727+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T04:15:13.747+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.107 seconds
+[2025-03-21T04:15:43.905+0000] {processor.py:186} INFO - Started process (PID=204) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T04:15:43.906+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T04:15:43.907+0000] {logging_mixin.py:190} INFO - [2025-03-21T04:15:43.907+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T04:15:43.917+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T04:15:43.934+0000] {logging_mixin.py:190} INFO - [2025-03-21T04:15:43.934+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T04:15:43.946+0000] {logging_mixin.py:190} INFO - [2025-03-21T04:15:43.945+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T04:15:43.957+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.055 seconds
+[2025-03-21T04:16:14.102+0000] {processor.py:186} INFO - Started process (PID=209) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T04:16:14.104+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T04:16:14.108+0000] {logging_mixin.py:190} INFO - [2025-03-21T04:16:14.107+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T04:16:14.126+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T04:16:14.147+0000] {logging_mixin.py:190} INFO - [2025-03-21T04:16:14.147+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T04:16:14.160+0000] {logging_mixin.py:190} INFO - [2025-03-21T04:16:14.160+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T04:16:14.191+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.099 seconds
+[2025-03-21T04:16:44.304+0000] {processor.py:186} INFO - Started process (PID=214) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T04:16:44.305+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T04:16:44.306+0000] {logging_mixin.py:190} INFO - [2025-03-21T04:16:44.306+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T04:16:44.320+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T04:16:44.340+0000] {logging_mixin.py:190} INFO - [2025-03-21T04:16:44.340+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T04:16:44.350+0000] {logging_mixin.py:190} INFO - [2025-03-21T04:16:44.350+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T04:16:44.362+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.063 seconds
+[2025-03-21T04:16:46.374+0000] {processor.py:186} INFO - Started process (PID=219) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T04:16:46.375+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T04:16:46.377+0000] {logging_mixin.py:190} INFO - [2025-03-21T04:16:46.376+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T04:16:46.397+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T04:16:46.414+0000] {logging_mixin.py:190} INFO - [2025-03-21T04:16:46.414+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T04:16:46.424+0000] {logging_mixin.py:190} INFO - [2025-03-21T04:16:46.424+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T04:16:46.439+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.070 seconds
+[2025-03-21T04:16:52.488+0000] {processor.py:186} INFO - Started process (PID=224) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T04:16:52.489+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T04:16:52.490+0000] {logging_mixin.py:190} INFO - [2025-03-21T04:16:52.490+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T04:16:52.509+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T04:16:52.526+0000] {logging_mixin.py:190} INFO - [2025-03-21T04:16:52.526+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T04:16:52.537+0000] {logging_mixin.py:190} INFO - [2025-03-21T04:16:52.537+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T04:16:52.554+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.070 seconds
+[2025-03-21T04:17:22.639+0000] {processor.py:186} INFO - Started process (PID=233) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T04:17:22.640+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T04:17:22.642+0000] {logging_mixin.py:190} INFO - [2025-03-21T04:17:22.642+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T04:17:22.654+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T04:17:22.671+0000] {logging_mixin.py:190} INFO - [2025-03-21T04:17:22.671+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T04:17:22.682+0000] {logging_mixin.py:190} INFO - [2025-03-21T04:17:22.681+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T04:17:22.695+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.060 seconds
+[2025-03-21T04:17:52.854+0000] {processor.py:186} INFO - Started process (PID=238) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T04:17:52.855+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T04:17:52.857+0000] {logging_mixin.py:190} INFO - [2025-03-21T04:17:52.857+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T04:17:52.869+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T04:17:52.886+0000] {logging_mixin.py:190} INFO - [2025-03-21T04:17:52.885+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T04:17:52.895+0000] {logging_mixin.py:190} INFO - [2025-03-21T04:17:52.895+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T04:17:52.909+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.058 seconds
+[2025-03-21T04:18:04.923+0000] {processor.py:186} INFO - Started process (PID=243) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T04:18:04.924+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T04:18:04.926+0000] {logging_mixin.py:190} INFO - [2025-03-21T04:18:04.926+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T04:18:04.949+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T04:18:04.970+0000] {logging_mixin.py:190} INFO - [2025-03-21T04:18:04.970+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T04:18:04.980+0000] {logging_mixin.py:190} INFO - [2025-03-21T04:18:04.980+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T04:18:04.995+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.077 seconds
+[2025-03-21T04:18:35.197+0000] {processor.py:186} INFO - Started process (PID=248) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T04:18:35.198+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T04:18:35.200+0000] {logging_mixin.py:190} INFO - [2025-03-21T04:18:35.199+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T04:18:35.210+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T04:18:35.226+0000] {logging_mixin.py:190} INFO - [2025-03-21T04:18:35.226+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T04:18:35.239+0000] {logging_mixin.py:190} INFO - [2025-03-21T04:18:35.239+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T04:18:35.250+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.056 seconds
+[2025-03-21T04:19:05.407+0000] {processor.py:186} INFO - Started process (PID=253) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T04:19:05.407+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T04:19:05.409+0000] {logging_mixin.py:190} INFO - [2025-03-21T04:19:05.409+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T04:19:05.422+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T04:19:05.439+0000] {logging_mixin.py:190} INFO - [2025-03-21T04:19:05.439+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T04:19:05.451+0000] {logging_mixin.py:190} INFO - [2025-03-21T04:19:05.451+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T04:19:05.467+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.064 seconds
+[2025-03-21T04:19:35.583+0000] {processor.py:186} INFO - Started process (PID=262) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T04:19:35.583+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T04:19:35.585+0000] {logging_mixin.py:190} INFO - [2025-03-21T04:19:35.585+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T04:19:35.596+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T04:19:35.611+0000] {logging_mixin.py:190} INFO - [2025-03-21T04:19:35.611+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T04:19:35.620+0000] {logging_mixin.py:190} INFO - [2025-03-21T04:19:35.620+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T04:19:35.635+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.056 seconds
+[2025-03-21T04:20:05.824+0000] {processor.py:186} INFO - Started process (PID=267) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T04:20:05.825+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T04:20:05.826+0000] {logging_mixin.py:190} INFO - [2025-03-21T04:20:05.826+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T04:20:05.837+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T04:20:05.853+0000] {logging_mixin.py:190} INFO - [2025-03-21T04:20:05.853+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T04:20:05.862+0000] {logging_mixin.py:190} INFO - [2025-03-21T04:20:05.862+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T04:20:05.873+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.053 seconds
+[2025-03-21T04:25:02.115+0000] {processor.py:186} INFO - Started process (PID=210) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T04:25:02.115+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T04:25:02.116+0000] {logging_mixin.py:190} INFO - [2025-03-21T04:25:02.116+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T04:25:02.133+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T04:25:02.160+0000] {logging_mixin.py:190} INFO - [2025-03-21T04:25:02.159+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T04:25:02.169+0000] {logging_mixin.py:190} INFO - [2025-03-21T04:25:02.169+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T04:25:02.182+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.071 seconds
+[2025-03-21T04:25:32.286+0000] {processor.py:186} INFO - Started process (PID=239) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T04:25:32.287+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T04:25:32.288+0000] {logging_mixin.py:190} INFO - [2025-03-21T04:25:32.288+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T04:25:32.299+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T04:25:32.317+0000] {logging_mixin.py:190} INFO - [2025-03-21T04:25:32.316+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T04:25:32.328+0000] {logging_mixin.py:190} INFO - [2025-03-21T04:25:32.328+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T04:25:32.340+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.059 seconds
+[2025-03-21T04:26:02.487+0000] {processor.py:186} INFO - Started process (PID=244) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T04:26:02.488+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T04:26:02.489+0000] {logging_mixin.py:190} INFO - [2025-03-21T04:26:02.489+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T04:26:02.500+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T04:26:02.516+0000] {logging_mixin.py:190} INFO - [2025-03-21T04:26:02.515+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T04:26:02.525+0000] {logging_mixin.py:190} INFO - [2025-03-21T04:26:02.524+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T04:26:02.544+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.060 seconds
+[2025-03-21T04:26:32.710+0000] {processor.py:186} INFO - Started process (PID=249) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T04:26:32.711+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T04:26:32.712+0000] {logging_mixin.py:190} INFO - [2025-03-21T04:26:32.712+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T04:26:32.725+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T04:26:32.742+0000] {logging_mixin.py:190} INFO - [2025-03-21T04:26:32.742+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T04:26:32.751+0000] {logging_mixin.py:190} INFO - [2025-03-21T04:26:32.751+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T04:26:32.763+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.058 seconds
+[2025-03-21T04:27:02.937+0000] {processor.py:186} INFO - Started process (PID=254) to work on /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T04:27:02.938+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_spark_to_postgres.py for tasks to queue
+[2025-03-21T04:27:02.939+0000] {logging_mixin.py:190} INFO - [2025-03-21T04:27:02.939+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T04:27:02.949+0000] {processor.py:925} INFO - DAG(s) 'spark_to_postgres_dag' retrieved from /opt/airflow/dags/DAG_spark_to_postgres.py
+[2025-03-21T04:27:02.965+0000] {logging_mixin.py:190} INFO - [2025-03-21T04:27:02.964+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T04:27:02.975+0000] {logging_mixin.py:190} INFO - [2025-03-21T04:27:02.975+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_to_postgres_dag to None, run_after=None
+[2025-03-21T04:27:02.991+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_spark_to_postgres.py took 0.057 seconds
