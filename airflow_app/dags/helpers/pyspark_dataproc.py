@@ -1,36 +1,25 @@
 from pyspark.sql import SparkSession
-import pandas as pd
 from pyspark.sql.functions import count, sum
+import pandas as pd
 
-# Initialize Spark
-spark = SparkSession.builder.appName("NoHadoopCSVExport").getOrCreate()
+#Initialize spark session
+spark = SparkSession.builder.appName("AggregatedSparkToCSV").getOrCreate()
 
-# Read JSON
-# df = spark.read.json(
-#     r"C:\Users\user\OneDrive\RFA _Personal Files\02. COURSE\Purwadhika_Data Engineering\Purwadhika_VS\EYDS_TEST\airflow_app\data\sample_data.json",
-#     multiLine=True
-# )
+#Read JSON files from aiflow volume
+df = spark.read.json("/opt/airflow/data/sample_data.json", multiLine=True)
 
-df = spark.read.json(
-    "/opt/airflow/data/sample_data.json",
-    multiLine=True
-)
-
-# Clean data: drop rows with any nulls, then drop duplicates
+#Data cleaning: drop rows with null values and duplicated records
 df_cleaned = df.dropna().dropDuplicates()
 
-# Convert to pandas for export
-df_pandas = df_cleaned.toPandas()
-
-# Fix column order
-columns_order = ["transaction_id", "customer_id", "timestamp", "amount", "currency", "status"]
-df_pandas = df_pandas[columns_order]
-
-# Save to CSV
-df_pandas.to_csv(
-    "/opt/airflow/data/cleaned_data.csv",
-    index=False
+#Aggregating data based on customer, to sum total transactions and total amounts
+df_agg = df_cleaned.groupBy("customer_id").agg(
+    count("transaction_id").alias("total_transactions"),
+    sum("amount").alias("total_amount")
 )
 
+#Export pyspark data frame to pandas and export to csv -- i still havent managed to write data from JSON to Postgre using PySpark
+df_agg.toPandas().to_csv("/opt/airflow/data/cleaned_aggregated_data.csv", index=False)
+
+#Close PySpark session
 spark.stop()
-print("✅ Nulls dropped, duplicates removed, and CSV exported with correct column order!")
+print("✅ Aggregated data exported to CSV!")

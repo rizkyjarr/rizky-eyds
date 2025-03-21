@@ -8,8 +8,8 @@ default_args = {
     'owner': 'airflow',
     'retries': 1,
     'retry_delay': timedelta(seconds=30),
-    "on_failure_callback": lambda context: send_discord_alert(context, "failure"),
-    "on_retry_callback": lambda context: send_discord_alert(context, "retry"),
+    "on_failure_callback": lambda context: send_discord_alert(context, "failure"), #Send error to discord on failure
+    "on_retry_callback": lambda context: send_discord_alert(context, "retry"), #Send error to discord on retry
 }
 
 with DAG(
@@ -17,7 +17,7 @@ with DAG(
     default_args=default_args,
     description='Clean data with PySpark then upsert to PostgreSQL',
     start_date=days_ago(1),
-    schedule_interval=None,  # Change to '@daily' or cron if needed
+    schedule_interval=None,  
     catchup=False,
     tags=['pyspark', 'postgres'],
 ) as dag:
