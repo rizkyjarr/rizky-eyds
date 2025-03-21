@@ -1,4 +1,5 @@
 version: '3.8'
+
 services:
   postgres:
     image: postgres:13
@@ -13,7 +14,9 @@ services:
       - postgres_data:/var/lib/postgresql/data
 
   airflow-webserver:
-    image: apache/airflow:latest
+    build:
+      context: .
+      dockerfile: Dockerfile.airflow
     container_name: airflow-webserver
     restart: always
     depends_on:
@@ -35,10 +38,12 @@ services:
       - ./data:/opt/airflow/data
       - ./data/sample_data.json:/opt/airflow/data/sample_data.json
       - ./requirements.txt:/requirements.txt
-    command: bash -c "pip install -r /requirements.txt && airflow db upgrade && airflow webserver"
+    command: airflow webserver
 
   airflow-scheduler:
-    image: apache/airflow:latest
+    build:
+      context: .
+      dockerfile: Dockerfile.airflow
     container_name: airflow-scheduler
     restart: always
     depends_on:
@@ -57,10 +62,12 @@ services:
       - ./data:/opt/airflow/data
       - ./data/sample_data.json:/opt/airflow/data/sample_data.json
       - ./requirements.txt:/requirements.txt
-    command: bash -c "pip install -r /requirements.txt && airflow db upgrade && airflow scheduler"
+    command: airflow scheduler
 
   airflow-init:
-    image: apache/airflow:latest
+    build:
+      context: .
+      dockerfile: Dockerfile.airflow
     container_name: airflow-init
     depends_on:
       - postgres
@@ -78,7 +85,11 @@ services:
       - ./data:/opt/airflow/data
       - ./data/sample_data.json:/opt/airflow/data/sample_data.json
       - ./requirements.txt:/requirements.txt
-    command: bash -c "pip install -r /requirements.txt && airflow db upgrade && airflow users create --username admin --password admin --firstname Admin --lastname User --role Admin --email admin@example.com"
+    command: >
+      bash -c "
+      airflow db upgrade &&
+      airflow users create --username admin --password admin --firstname Admin --lastname User --role Admin --email admin@example.com
+      "
 
   spark:
     image: bitnami/spark:latest

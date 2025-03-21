@@ -3,7 +3,8 @@ import psycopg2
 
 
 # === CONFIGURATION ===
-CSV_PATH = r"C:\Users\user\OneDrive\RFA _Personal Files\02. COURSE\Purwadhika_Data Engineering\Purwadhika_VS\EYDS_TEST\airflow_app\data\cleaned_data.csv"
+# CSV_PATH = r"C:\Users\user\OneDrive\RFA _Personal Files\02. COURSE\Purwadhika_Data Engineering\Purwadhika_VS\EYDS_TEST\airflow_app\data\cleaned_data.csv"
+CSV_PATH = "/opt/airflow/data/cleaned_data.csv"
 
 DB_CONFIG = {
     "host": "host.docker.internal",      # Use 'postgres' if inside Docker
